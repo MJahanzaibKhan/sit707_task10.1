@@ -18,7 +18,7 @@ public class TaskSubmissionTest {
         String result = taskSubmission.submitTask(
             "SIT707", "SQT Assignment", "SQT_assignment.pdf", "2024-06-01"
         );
-        assertEquals("Task has been submitted successfully", result);
+        assertEquals("Task has been submitted successfully", result); 
     }
 
     @Test
